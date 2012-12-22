@@ -1,3 +1,3 @@
 # Merchants
 
-Merchants sell products, and services. Merchants are generally unique. Keep your Multitons and Singletons organized here :)
+Merchants sell products, and services. Merchants are generally unique. Keep things here that provide one-off services or products to other classes.
