@@ -1,0 +1,2 @@
+#!/usr/bin/env php
+<?php require dirname(dirname(__DIR__)) . '/Core/_cli/rbhp.php';
