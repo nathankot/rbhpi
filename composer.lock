@@ -1,5 +1,5 @@
 {
-    "hash": "5d6fc7a51968b61e17b8e8b8d446dd3a",
+    "hash": "49a313fd8b0dca7f3f28d12475fa6fb5",
     "packages": [
         {
             "name": "bobthecow/faker",
@@ -39,6 +39,49 @@
                 "MIT"
             ],
             "description": "The easiest way to generate fake data in PHP"
+        },
+        {
+            "name": "mustache/mustache",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/mustache.php",
+                "reference": "v2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/bobthecow/mustache.php/zipball/v2.0.2",
+                "reference": "v2.0.2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "time": "2012-09-12 09:13:06",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Mustache": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "A Mustache implementation in PHP.",
+            "homepage": "https://github.com/bobthecow/mustache.php",
+            "keywords": [
+                "templating",
+                "mustache"
+            ]
         }
     ],
     "packages-dev": null,

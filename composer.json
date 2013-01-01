@@ -4,5 +4,6 @@
 		}
 	, "require" : {
 				"bobthecow/faker": "1.0.*@dev"
+			,	"mustache/mustache": "v2.0.2"
 		}
 }
