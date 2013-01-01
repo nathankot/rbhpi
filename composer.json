@@ -1,0 +1,8 @@
+{
+		"config" : {
+				"vendor-dir" : "Vendor"
+		}
+	, "require" : {
+				"bobthecow/faker": "1.0.*@dev"
+		}
+}

@@ -1,0 +1,52 @@
+{
+    "hash": "5d6fc7a51968b61e17b8e8b8d446dd3a",
+    "packages": [
+        {
+            "name": "bobthecow/faker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/Faker.git",
+                "reference": "5e0ee7d6c1cb3be80bc7c69e7018a88bbedceea8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/bobthecow/Faker/archive/5e0ee7d6c1cb3be80bc7c69e7018a88bbedceea8.zip",
+                "reference": "5e0ee7d6c1cb3be80bc7c69e7018a88bbedceea8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "conflict": {
+                "fzaninotto/faker": "*"
+            },
+            "time": "2012-11-18 21:20:39",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Faker": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The easiest way to generate fake data in PHP"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "bobthecow/faker": 20
+    }
+}
