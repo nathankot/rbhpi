@@ -1,5 +1,5 @@
 {
-    "hash": "c0ae557edf11c6fea0c23fbfd443058f",
+    "hash": "48b9c4f3cdb587bec6c67ce4b5d63f0c",
     "packages": [
         {
             "name": "bitworking/mimeparse",
@@ -132,6 +132,53 @@
                 "templating",
                 "mustache"
             ]
+        },
+        {
+            "name": "rmccue/requests",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rmccue/Requests.git",
+                "reference": "eee30254c2ba314ad7fe3bc493095af421118c27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/rmccue/Requests/archive/eee30254c2ba314ad7fe3bc493095af421118c27.zip",
+                "reference": "eee30254c2ba314ad7fe3bc493095af421118c27",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "time": "2012-10-25 14:01:26",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Requests": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan McCue",
+                    "homepage": "http://ryanmccue.info"
+                }
+            ],
+            "description": "A HTTP library written in PHP, for human beings.",
+            "homepage": "http://github.com/rmccue/Requests",
+            "keywords": [
+                "ipv6",
+                "curl",
+                "http",
+                "idna",
+                "iri",
+                "sockets",
+                "fsockopen"
+            ]
         }
     ],
     "packages-dev": null,
@@ -140,6 +187,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "bobthecow/faker": 20
+        "bobthecow/faker": 20,
+        "rmccue/requests": 20
     }
 }
