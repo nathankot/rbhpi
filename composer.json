@@ -3,8 +3,10 @@
 				"vendor-dir" : "Vendor"
 		}
 	, "require" : {
-				"bobthecow/faker": "1.0.*@dev"
-			,	"mustache/mustache": "v2.0.2"
+			/* The default setup of RBHPi depends on these packages */
+				"mustache/mustache": "v2.0.2"
+			/* These are RBHPi Core Dependencies. */
+			,	"bobthecow/faker": "1.0.*@dev"
 			,	"bitworking/mimeparse": "2.0.0"
 			,	"rmccue/requests": "dev-master"
 		}
