@@ -4,7 +4,7 @@
 		}
 	, "require" : {
 				"mustache/mustache": "v2.0.2"
-			,	"rbhpi/core": "0.1.*"
+			,	"rbhpi/core": "dev-master"
 			,	"bobthecow/faker": "1.0.*@dev"
 			,	"bitworking/mimeparse": "2.0.0"
 			,	"rmccue/requests": "dev-master"

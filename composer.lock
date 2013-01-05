@@ -1,5 +1,5 @@
 {
-    "hash": "65d24e0d7388da4d4f48067c7c90027b",
+    "hash": "20dbfce53254919c3c766d510dad65a0",
     "packages": [
         {
             "name": "bitworking/mimeparse",
@@ -135,22 +135,22 @@
         },
         {
             "name": "rbhpi/core",
-            "version": "0.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nathankot/rbhpi-core",
-                "reference": "0.1.0"
+                "reference": "0.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/nathankot/rbhpi-core/archive/0.1.0.zip",
-                "reference": "0.1.0",
+                "url": "https://github.com/nathankot/rbhpi-core/archive/0.1.1.zip",
+                "reference": "0.1.1",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
-            "time": "2013-01-05 08:16:46",
+            "time": "2013-01-05 08:21:29",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -233,6 +233,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
+        "rbhpi/core": 20,
         "bobthecow/faker": 20,
         "rmccue/requests": 20
     }
