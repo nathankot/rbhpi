@@ -21,14 +21,14 @@ Anyhow, this encompasses my personal way of doing things. See if you like it ;)
 You can take a `Core\Prototype\Request` object, and inject it into another RBHPi server by doing something like this:
 
 ```php
-	$request = new \Core\Prototype\Request([
-			'path' => '/route/to/your/request'
-		,	'payload' => $data
-		,	'host' => 'anotherserver.rbhpi.com'
-		,	'method' => 'get'
-		, 'format' => 'json'
-	]);
-	$response = $request->inject();
+$request = new \Core\Prototype\Request([
+		'path' => '/route/to/your/request'
+	,	'payload' => $data
+	,	'host' => 'anotherserver.rbhpi.com'
+	,	'method' => 'get'
+	, 'format' => 'json'
+]);
+$response = $request->inject();
 ```
 
 And you'll get a `$response` from the other server.
@@ -38,7 +38,7 @@ And you'll get a `$response` from the other server.
 The framework has a cli tool that can help you deploy via git like this:
 
 ```bash
-	_cli/bin/rbhp deploy
+_cli/bin/rbhp deploy
 ```
 
 The deployment will run you through configuration first. I'll write a more comprehensive guide perhaps some time in the future.
@@ -54,13 +54,13 @@ The deployment will run you through configuration first. I'll write a more compr
 It uses composer, so you will have to do this first:
 
 ```bash
-	php composer.phar install
+php composer.phar install
 ```
 
 And then run some tests (Although at this stage, they won't pass unless you have MongoDB installed and password-less):
 
 ```bash
-	_cli/bin/rbhp test core
+_cli/bin/rbhp test core
 ```
 
 # License
