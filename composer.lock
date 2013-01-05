@@ -139,18 +139,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nathankot/rbhpi-core",
-                "reference": "0.1.1"
+                "reference": "0.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/nathankot/rbhpi-core/archive/0.1.1.zip",
-                "reference": "0.1.1",
+                "url": "https://github.com/nathankot/rbhpi-core/archive/0.1.2.zip",
+                "reference": "0.1.2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
-            "time": "2013-01-05 08:21:29",
+            "time": "2013-01-05 10:42:51",
             "type": "library",
             "installation-source": "source",
             "autoload": {

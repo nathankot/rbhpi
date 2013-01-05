@@ -1,5 +1,7 @@
 # The RBHPi Framework.
 
+[![Build Status](https://travis-ci.org/nathankot/rbhpi.png?branch=master)](https://travis-ci.org/nathankot/rbhpi)
+
 _Currently under active development. API **will** change without notice._
 
 This is my personal PHP5.4+ framework. Humble and down to earth. It is loosely based around a HMVMC architectural pattern (Hierarchical Model—View-Model—Controller).
