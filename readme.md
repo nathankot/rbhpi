@@ -2,7 +2,7 @@
 
 _Currently under active development. API **will** change without notice._
 
-This is my personal PHP5.4+ framework. Humble and down to earth. It is loosely based around a HMVMC architectural pattern (Hierarchial Model—View-Model—Controller).
+This is my personal PHP5.4+ framework. Humble and down to earth. It is loosely based around a HMVMC architectural pattern (Hierarchical Model—View-Model—Controller).
 
 This framework is actually a _stripped-down and cleaned up_ version of my RBHP framework which I have been using in production since forever. It is designed to be released to the public so that I can feel like I've contributed to the Open Source community. Although, given the excess amount of PHP Frameworks available out there, I highly doubt that the popularity of this framework will pick up any time soon. I also wouldn't be able to tell you how different or how this framework would stand out from the others, as I have never truly used a different framework in production.
 
