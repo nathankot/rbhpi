@@ -1,5 +1,5 @@
 {
-    "hash": "48b9c4f3cdb587bec6c67ce4b5d63f0c",
+    "hash": "20dbfce53254919c3c766d510dad65a0",
     "packages": [
         {
             "name": "bitworking/mimeparse",
@@ -134,6 +134,51 @@
             ]
         },
         {
+            "name": "rbhpi/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nathankot/rbhpi-core",
+                "reference": "cd885b1fb38fa93699dea30398027a121bbc5155"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/nathankot/rbhpi-core/archive/cd885b1fb38fa93699dea30398027a121bbc5155.zip",
+                "reference": "cd885b1fb38fa93699dea30398027a121bbc5155",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "time": "2013-01-05 07:10:59",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Core": "Core/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache License 2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kot",
+                    "email": "nk@nathankot.com",
+                    "homepage": "http://nathankot.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "RBHPi Framework Core",
+            "homepage": "https://github.com/nathankot/rbhpi-core",
+            "keywords": [
+                "framework",
+                "php",
+                "RBHPi"
+            ]
+        },
+        {
             "name": "rmccue/requests",
             "version": "dev-master",
             "source": {
@@ -187,6 +232,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
+        "rbhpi/core": 20,
         "bobthecow/faker": 20,
         "rmccue/requests": 20
     }
