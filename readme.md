@@ -33,6 +33,26 @@ $response = $request->inject();
 
 And you'll get a `$response` from the other server.
 
+### Model Priorty
+
+You can set the `$priority` property of a model, and if you use the MongoDB adapter and PECL Mongo 1.3+, it will adjust the `writeConcern` and `readPreference` for the encapsulated collection accordingly.
+
+```php
+namespace App\Model;
+
+class Test extends \Core\Blueprint\Model
+{
+	$priority = 2;
+	$schema = [];
+}
+```
+
+This is how a MongoDB adapter would react to the following priority levels:
+
+- **Minimum** (1): writeConcern `0` (Fire and forget). Read Preference `Nearest`.
+- **Normal** (2): writeConcern `1` (Wait for primary to write). Read Preference `Primary Preferred`.
+- **Maximum** (3): writeConcern `majority` (Majority of servers must acknowledge). Read Preference `Primary`.
+
 ### Deployment Via Git
 
 The framework has a cli tool that can help you deploy via git like this:
