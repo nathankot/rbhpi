@@ -139,23 +139,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nathankot/rbhpi-core",
-                "reference": "cd885b1fb38fa93699dea30398027a121bbc5155"
+                "reference": "688b815c0e5fd5120c66ba8f27d01a4685745621"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/nathankot/rbhpi-core/archive/cd885b1fb38fa93699dea30398027a121bbc5155.zip",
-                "reference": "cd885b1fb38fa93699dea30398027a121bbc5155",
+                "url": "https://github.com/nathankot/rbhpi-core/archive/688b815c0e5fd5120c66ba8f27d01a4685745621.zip",
+                "reference": "688b815c0e5fd5120c66ba8f27d01a4685745621",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
-            "time": "2013-01-05 07:10:59",
+            "time": "2013-01-05 08:12:45",
             "type": "library",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
-                    "Core": "Core/"
+                    "Core": "src/",
+                    "Exception": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
