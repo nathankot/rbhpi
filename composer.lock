@@ -135,22 +135,22 @@
         },
         {
             "name": "rbhpi/core",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nathankot/rbhpi-core",
-                "reference": "0.2.0"
+                "reference": "0.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/nathankot/rbhpi-core/archive/0.2.0.zip",
-                "reference": "0.2.0",
+                "url": "https://github.com/nathankot/rbhpi-core/archive/0.2.1.zip",
+                "reference": "0.2.1",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
-            "time": "2013-01-06 07:26:45",
+            "time": "2013-01-14 10:14:51",
             "type": "library",
             "installation-source": "source",
             "autoload": {
