@@ -1,6 +1,7 @@
 # The RBHPi Framework.
 
 [![Build Status](https://travis-ci.org/nathankot/rbhpi.png?branch=master)](https://travis-ci.org/nathankot/rbhpi)
+[![Build Status](https://travis-ci.org/nathankot/rbhpi.png)](https://travis-ci.org/nathankot/rbhpi)
 
 _Currently under active development. API **will** change without notice._
 
